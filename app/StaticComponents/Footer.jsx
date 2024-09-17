@@ -11,7 +11,7 @@ export default function Footer() {
           <p className="font-raleway font-black text-[#d2f65a] text-4xl">
             ArunSirpi
           </p>
-          <p className="font-poppins text-white font-thin max-w-[50%]">
+          <p className="font-poppins text-white font-thin md:max-w-[50%]">
             {" "}
             Arun Sirpi is a top specialist in custom building elevations in
             Chennai. As one of the Top 10 Building Elevation Companies, we offer

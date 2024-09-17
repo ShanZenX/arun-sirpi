@@ -11,7 +11,7 @@ export default function OurProjects() {
         title={"Our Project"}
         miniTitle={"See our best projects for our clients "}
       />
-      <div className="flex flex-wrap w-10/12 justify-evenly my-10">
+      <div className="flex flex-wrap w-11/12 items-center justify-evenly my-10">
         <Image.PreviewGroup
           preview={{
             onChange: (current, prev) =>

@@ -8,9 +8,9 @@ import PhotoModule from '../Components/MIniComponents/PhotoModule';
 
 export default function page() {
   return (
-    <div>
+    <div className='w-full flex flex-col px-4 items-center justify-center'>
 <Banner  img={img1} title={"Our Work's"}/>
-<div className="flex flex-wrap w-10/12 justify-evenly my-10">
+<div className="flex flex-wrap  justify-evenly my-10 ">
         <Image.PreviewGroup
           preview={{
             onChange: (current, prev) =>

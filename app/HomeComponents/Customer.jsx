@@ -28,7 +28,7 @@ const reviews = [
 
 export default function Customer() {
   return (
-    <div className=" w-full mx-auto p-6  rounded-lg flex items-center flex-col">
+    <div className=" w-full mx-auto md:p-6  rounded-lg flex items-center flex-col">
 <Title title={"Customer Reviews"} miniTitle={"Customer reviews for our previous work"}/>
       <div className="flex w-[88%] item-center flex-wrap justify-between  bg-black rounded-2xl p-10 my-10">
         {reviews.map((review, index) => (
