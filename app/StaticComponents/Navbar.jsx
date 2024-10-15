@@ -8,11 +8,12 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import logo from "@/public/logo.jpeg"
 export default function MyNavbar() {
   return (
-    <Navbar expand="lg" className="navbar-dark fixed-top  bg-[#000] z-10 !px-5">
+    <Navbar expand="lg" className="navbar-dark h-20 fixed-top  bg-[#000] z-10 !px-5">
       <Container fluid>
-        <Navbar.Brand href="/" className="!text-[#d2f65a] font-bold tracking-wider">ArunSirpi</Navbar.Brand>
+        <Navbar.Brand href="/" className="!text-[#d2f65a] font-bold tracking-wider"><Image src={logo} width={100} alt="arun sirpi" ></Image></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav

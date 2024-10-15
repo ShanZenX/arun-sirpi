@@ -7,9 +7,9 @@ import img4 from "@/public/slider-4.jpg";
 
 function MainCarousel() {
   return (
-    <Carousel data-bs-theme="dark" className='w-full h-full p-1 bg-white rounded-md' pause="false">
+    <Carousel data-bs-theme="dark" className='w-full h-full p-1 bg-white rounded-md' pause="false" controls={false}>
       <Carousel.Item>
-        <div className="h-[50vh] w-full relative">
+        <div className="h-[55vh] w-full relative">
           <Image 
             src={img1} 
             alt='img1' 
@@ -21,7 +21,7 @@ function MainCarousel() {
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="h-[50vh] w-full relative">
+        <div className="h-[55vh] w-full relative">
           <Image 
             src={img2} 
             alt='img2' 
@@ -33,7 +33,7 @@ function MainCarousel() {
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="h-[50vh] w-full relative">
+        <div className="h-[55vh] w-full relative">
           <Image 
             src={img3} 
             alt='img3' 
@@ -45,7 +45,7 @@ function MainCarousel() {
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="h-[50vh] w-full relative">
+        <div className="h-[55vh] w-full relative">
           <Image 
             src={img4} 
             alt='img4' 
@@ -55,7 +55,7 @@ function MainCarousel() {
             className='rounded-md object-cover' 
           />
         </div>
-      </Carousel.Item>
+      </Carousel.Item> 
     </Carousel>
   );
 }

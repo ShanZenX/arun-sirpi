@@ -6,17 +6,13 @@ import { Button } from "react-bootstrap";
 
 import "aos/dist/aos.css"; // Import AOS styles
 import { useEffect } from "react";
-import Aos from "aos";
 
 export default function ServicesSection() {
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
+
   return (
     <div
       className="w-full flex flex-col items-center justify-between "
-      data-aos="fade-up"
-      data-aos-anchor-placement="center-bottom"
+  
     >
       <Title
         title={"Services"}

@@ -7,14 +7,11 @@ import { useEffect } from "react";
 import Aos from "aos";
 
 export default function AboutSection() {
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
+
   return (
     <div
       className="flex-col w-full md:w-[90%] text-center h-full flex justify-evenly rounded-xl p-3 md:p-10 "
-      data-aos="fade-up"
-      data-aos-anchor-placement="center-bottom"
+   
     >
       <Title
         title={"About ArunSirpi"}

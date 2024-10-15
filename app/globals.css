@@ -8,3 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* d2f65a */
+
+.carousel-indicators {
+    display: none; /* Hide the indicators if needed */
+  }
