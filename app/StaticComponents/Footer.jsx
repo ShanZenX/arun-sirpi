@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="w-[90%] flex flex-wrap flex-col items-center text-center justify-center gap-10 ">
         <div className="items-center flex flex-col">
           {" "}
-          <p className="font-raleway font-black text-[#d2f65a] text-4xl">
+          <p className="font-raleway font-black text-[#FFDB58] text-4xl">
             ArunSirpi
           </p>
           <p className="font-poppins text-white font-thin md:max-w-[50%]">
@@ -25,7 +25,7 @@ export default function Footer() {
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-2 text-[#d2f65a] border border-white rounded-full"
+            className="p-2 text-[#FFDB58] border border-white rounded-full"
           >
             <Phone className="w-6 h-6 hover:text-gray-400" />
           </Link>
@@ -33,7 +33,7 @@ export default function Footer() {
             href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-2 text-[#d2f65a] border border-white rounded-full"
+            className="p-2 text-[#FFDB58] border border-white rounded-full"
           >
             <Facebook className="w-6 h-6 hover:text-gray-400" />
           </Link>
@@ -41,7 +41,7 @@ export default function Footer() {
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-2 text-[#d2f65a] border border-white rounded-full"
+            className="p-2 text-[#FFDB58] border border-white rounded-full"
           >
             <Twitter className="w-6 h-6 hover:text-gray-400" />
           </Link>
@@ -49,14 +49,14 @@ export default function Footer() {
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-2 text-[#d2f65a] border border-white rounded-full"
+            className="p-2 text-[#FFDB58] border border-white rounded-full"
           >
             <Instagram className="w-6 h-6 hover:text-gray-400" />
           </Link>
         </div>
         <div className="w-full h-[2px] bg-white"></div>
         <div>
-          <p>Design By - <Link href={"https://shanmugaraj.vercel.app/"} target="_blank" className="text-[#d2f65a] no-underline">ShanZenX</Link></p>
+          <p>Design By - <Link href={"https://shanmugaraj.vercel.app/"} target="_blank" className="text-[#FFDB58] no-underline">ShanZenX</Link></p>
         </div>
       </div>
     </footer>

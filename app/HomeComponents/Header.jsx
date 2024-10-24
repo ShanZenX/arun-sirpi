@@ -28,21 +28,22 @@ export default function Header() {
   return (
     <div
     className="w-full h-[95vh]  relative flex items-center mt-10 z-0 bg-cover bg-top" 
-    style={{ backgroundImage: 'url("/bg.jpg")' , opacity: 0.9 }}
+    style={{ backgroundImage: 'url("/bg.jpg")' }}
     >
+      <div className="w-64 h-64 bg-[#000000] blur-[200px] absolute  left-[600px]"></div>
       <div className="w-full    flex justify-center items-center  flex-col text-black mt-16 z-10 ">
-        <p className={`text-xl font-medium  ${poppins.className}`}>
+        <p className={`text-xl font-medium   ${poppins.className}`}>
           Elevate Your House with
         </p>
         <p
-          className={` text-7xl md:text-[140px]   font-black text-gradient-wave ${raleway.className}`}
+          className={` text-7xl md:text-[160px] text-[#FFDB58]   font-black text-gradient-wave ${raleway.className}`}
         >
           Arun Sirpi
         </p>
-        <p className={`font-medium text-xl  ${poppins.className}`}>
+        <p className={`font-medium text-xl ${poppins.className}`}>
           Come Explore Innovative Cement Elevation Designs
         </p>
-        <Button className="w-28 mt-3 !bg-[#d2f65a] text-black border-black">
+        <Button className="w-28 mt-3 !bg-[#000000]  border-black">
           Get Us{" "}
         </Button>
       </div>

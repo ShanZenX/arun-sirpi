@@ -19,7 +19,7 @@ const poppins = Poppins({
 });
 export default function page() {
   return (
-    <div className="px-4">
+    <div className="px-4  bg-[#e6b21930]">
       <Banner img={img} title={"Our Service's"} />
       <div className=" w-full flex items-center justify-center flex-col">
         <Title

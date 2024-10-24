@@ -10,7 +10,7 @@ export default function AboutSection() {
 
   return (
     <div
-      className="flex-col w-full md:w-[90%] text-center h-full flex justify-evenly rounded-xl p-3 md:p-10 "
+      className="flex-col  w-full md:w-[90%] text-center h-full flex justify-evenly rounded-xl p-3 md:p-10 "
    
     >
       <Title
@@ -22,8 +22,8 @@ export default function AboutSection() {
         <div className="w-full  md:w-[35%]  h-full ">
           <MainCarousel />
         </div>
-        <div className="md:w-[60%] h-full flex flex-col text-gree  justify-center">
-          <p className="text-[#d2f65a] font-raleway font-semibold text-4xl">
+        <div className="md:w-[60%] text-start h-full flex flex-col text-gree  justify-center">
+          <p className="text-[#FFDB58] font-raleway font-semibold text-4xl">
             ArunSirpi
           </p>
           <p className=" font-raleway font-thin text-xl text-white leading-[35px] tracking-widest">
