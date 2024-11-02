@@ -7,52 +7,52 @@ import img4 from "@/public/slider-4.jpg";
 
 function MainCarousel() {
   return (
-    <Carousel data-bs-theme="dark" className='w-full h-full p-1 bg-white rounded-md' pause="false" controls={false}>
+    <Carousel data-bs-theme="dark" className='w-full mt-5 h-full   bg-white rounded-2xl' pause="false" controls={false}>
       <Carousel.Item>
-        <div className="h-[55vh] w-full relative">
+        <div className="h-[78vh] w-full relative border-black border-2 rounded-2xl">
           <Image 
             src={img1} 
             alt='img1' 
             fill
             quality={100} 
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            className='rounded-md object-cover' 
+            className='rounded-2xl object-cover' 
           />
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="h-[55vh] w-full relative">
-          <Image 
+      <div className="h-[78vh] w-full relative border-black border-2 rounded-2xl">
+      <Image 
             src={img2} 
             alt='img2' 
             fill
             quality={100} 
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            className='rounded-md object-cover' 
+            className='rounded-2xl object-cover' 
           />
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="h-[55vh] w-full relative">
+      <div className="h-[78vh] w-full relative border-black border-2 rounded-2xl">
           <Image 
             src={img3} 
             alt='img3' 
             fill
             quality={100} 
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            className='rounded-md object-cover' 
+            className='rounded-2xl object-cover' 
           />
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="h-[55vh] w-full relative">
+      <div className="h-[78vh] w-full relative border-black border-2 rounded-2xl">
           <Image 
             src={img4} 
             alt='img4' 
             fill
             quality={100} 
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            className='rounded-md object-cover' 
+            className='rounded-2xl object-cover' 
           />
         </div>
       </Carousel.Item> 

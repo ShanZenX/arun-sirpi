@@ -19,13 +19,13 @@ const poppins = Poppins({
 });
 export default function page() {
   return (
-    <div className="px-4  bg-[#e6b21930]">
+    <div className="px-4 pt-6     bg-[#efe4c57a]">
       <Banner img={img} title={"Our Service's"} />
       <div className=" w-full flex items-center justify-center flex-col">
-        <Title
+        {/* <Title
           title={"Services"}
           miniTitle={"Enjoy the best services from our side"}
-        />
+        /> */}
         <div className="flex w-[90%] my-10 flex-wrap justify-around ">
           <ServiceCard
             imageSrc={img}

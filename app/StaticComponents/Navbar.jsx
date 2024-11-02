@@ -11,7 +11,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "@/public/logo.jpeg"
 export default function MyNavbar() {
   return (
-    <Navbar expand="lg" className="navbar-dark h-20 fixed-top  bg-[#000] z-10 !px-5">
+    <Navbar expand="lg" className="navbar-dark h-20 fixed-top  bg-[#272725] z-10 !px-5">
       <Container fluid>
         <Navbar.Brand href="/" className="!text-[#d2f65a] font-bold tracking-wider"><Image src={logo} width={100} alt="arun sirpi" ></Image></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -22,8 +22,8 @@ export default function MyNavbar() {
             navbarScroll
           >
             <Nav.Link href="/" className="text-white"> Home</Nav.Link>
-            <Nav.Link href="servicesPage" className="text-white">Services</Nav.Link>
-            <Nav.Link href="works"  className="text-white">Works</Nav.Link>
+            <Nav.Link href="./services" className="text-white">Services</Nav.Link>
+            <Nav.Link href="./works"  className="text-white">Works</Nav.Link>
             <Nav.Link href="/" className="text-white">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
