@@ -31,7 +31,7 @@ export default function ServicesSection() {
         ))}
       </div>
       <Button className="w-28 md:mt-3 !bg-[#000000] !text-[#efefef]  !border-none">
-        <Link href={"./servicesPage "} className="!bg-[#000000] !text-[#efefef] no-underline !border-none">        See More
+        <Link href={"./services"} className="!bg-[#000000] !text-[#efefef] no-underline !border-none">        See More
         </Link>
       </Button>
     </div>
