@@ -1,6 +1,6 @@
 import React from 'react'
-import ContactCard from '../Components/cards/contactcard'
 import { Mail , MapPin, Phone} from 'lucide-react';
+import ContactCard from '../Components/cards/contactCard';
 
 
 export default function page() {
