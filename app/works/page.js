@@ -22,7 +22,7 @@ export default function page() {
 <Banner  img={img1} title={"Our Work's"}/>
 
       <OurProjects/>
-      <div className="flex flex-wrap w-11/12 -mt-6 items-center justify-evenly ">
+      <div className="flex flex-wrap w-11/12 -mt-6 mb-5  gap-5 items-center justify-evenly ">
         <Image.PreviewGroup
           preview={{
             onChange: (current, prev) =>
