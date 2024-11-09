@@ -15,7 +15,7 @@ export default function Home() {
 
 
   return (
-<div className="flex flex-col justify-center items-center bg-[#efe4c57a]  " >
+<div className="flex flex-col justify-center items-center bg-[#e6b21915]  " >
 <Header/>
 <ServicesSection/>
 <AboutSection/>

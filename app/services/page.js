@@ -35,7 +35,7 @@ const services = [
 
 export default function page() {
   return (
-    <div className="px-4 pt-6     bg-[#efe4c57a]">
+    <div className="px-4 pt-6     bg-[#e6b31900]">
       <Banner img={img} title={"Our Service's"} />
       <div className=" w-full flex items-center justify-center flex-col">
         {/* <Title

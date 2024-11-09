@@ -18,7 +18,7 @@ import img9 from "@/public/ser-4.jpg";
 
 export default function page() {
   return (
-    <div className='w-full flex flex-col px-4 items-center justify-center pt-6    bg-[#efe4c57a]'>
+    <div className='w-full flex flex-col px-4 items-center justify-center pt-6    bg-[#e6b31900]'>
 <Banner  img={img1} title={"Our Work's"}/>
 
       <OurProjects/>

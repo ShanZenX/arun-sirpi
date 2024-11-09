@@ -31,7 +31,7 @@ const poppins = Poppins({
 export default function Header() {
   return (
     <div
-      className="w-full flex-col  relative flex items-center mt-10 z-0 bg-cover bg-top"
+      className="w-full flex-col  relative flex items-center mt-20 z-0 bg-cover bg-top"
       // style={{ backgroundImage: 'url("/bg.jpg")' }}
     >
       {/* <div className="w-64 h-64 bg-[#000000] blur-[200px] absolute  left-[600px]"></div> */}
@@ -49,7 +49,7 @@ export default function Header() {
         >
           Come Explore Innovative Cement Elevation Designs
         </p>
-        <Button className="w-28 mt-3 !bg-[#272725]  border-black">
+        <Button className="w-28 mt-3 !bg-yellow-950/30  border-black">
           <Link href={"./services"} className="text-white no-underline" >          Get Us 
           </Link>
         </Button>
@@ -83,26 +83,26 @@ export default function Header() {
           <Image
             src={head1}
             alt="header1"
-            className="w-full h-56 rounded-2xl object-cover border-black border-2"
+            className="w-full h-56 rounded-2xl object-cover "
           ></Image>
         </div>
         <div className="w-[47%] h-60 md:w-60 md:h-60 bg-black rounded-2xl">
-          <Image src={head2} className="w-full h-full rounded-2xl object-cover border-black border-2" alt="img-1"></Image>
+          <Image src={head2} className="w-full h-full rounded-2xl object-cover " alt="img-1"></Image>
         </div>
         <div className="w-[47%] h-60 md:w-60 md:h-60 bg-black rounded-2xl">
-        <Image src={head3} className="w-full h-full rounded-2xl object-cover border-black border-2" alt="img-1"></Image>
+        <Image src={head3} className="w-full h-full rounded-2xl object-cover " alt="img-1"></Image>
 
         </div>
         <div className="w-[47%] h-60 md:w-60 md:h-60 bg-black rounded-2xl">
-        <Image src={img3} className="w-full h-full rounded-2xl object-cover border-black border-2" alt="img-1"></Image>
+        <Image src={img3} className="w-full h-full rounded-2xl object-cover " alt="img-1"></Image>
 
         </div>
         <div className="w-[47%] h-60 md:w-60 md:h-60 bg-black rounded-2xl">
-        <Image src={img4} className="w-full h-full rounded-2xl object-cover border-black border-2" alt="img-1"></Image>
+        <Image src={img4} className="w-full h-full rounded-2xl object-cover " alt="img-1"></Image>
 
         </div>
         <div className="w-[47%] hidden md:flex h-60 md:w-60 md:h-60 bg-black rounded-2xl">
-        <Image src={img5} className="w-full h-full rounded-2xl object-cover border-black border-2" alt="img-1"></Image>
+        <Image src={img5} className="w-full h-full rounded-2xl object-cover   " alt="img-1"></Image>
 
         </div>
       </div>

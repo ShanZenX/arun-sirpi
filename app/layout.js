@@ -3,6 +3,8 @@ import "./globals.css";
 import MyNavbar from "./StaticComponents/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./StaticComponents/Footer";
+import FloatingIcon from "./Components/MIniComponents/FloattingIcon";
+import TopHeader from "./StaticComponents/TopHeader";
 
 
 
@@ -15,8 +17,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="bg-[#e6b21915]">
+        <TopHeader/>
         <MyNavbar/>
         {children}
+        <FloatingIcon/>
         <Footer/></body>
     </html>
   );
