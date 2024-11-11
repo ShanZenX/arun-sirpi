@@ -35,7 +35,7 @@ export default function TopHeader() {
       <div className="flex gap-3">
   
         <a
-          href="https://twitter.com"
+          href="https://www.youtube.com/@arunsirpi"
           target="_blank"
           rel="noopener noreferrer"
           className="text-[#000000] rounded-full bg-[#FFDB58] grid place-items-center w-8 h-8"
@@ -43,7 +43,7 @@ export default function TopHeader() {
           <YoutubeIcon className="w-6 h-6"/>
         </a>
         <a
-          href="https://linkedin.com"
+          href="https://www.instagram.com/arunsirpi77/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-[#000000] rounded-full bg-[#FFDB58] grid place-items-center w-8 h-8"
@@ -54,13 +54,12 @@ export default function TopHeader() {
       <div className="text-smg gap-4 flex items-center justify-center h-[50px]">
         <div className="flex items-center justify-center h-[50px] ">
           <PhoneIcon className="w-4 h-4   mr-2" />{" "}
-          <a href="tel:+1234567890" className="text-[#FFDB58] no-underline">
-            +1234567890
-          </a>
+          <a href="tel:+918667003923" className="text-[#FFDB58] no-underline">
+          +91 8667003923          </a>
         </div>
         <div className=" hidden md:flex items-center justify-center h-[50px]">
           <MapPin className="w-4 h-4   mr-2" />{" "}
-          <a href="tel:+1234567890" className="text-[#FFDB58] no-underline">
+          <a href="https://maps.app.goo.gl/i4do3ZxbXfctAgv49" target="_blank" className="text-[#FFDB58] no-underline">
             Urapakkam , Chennai
           </a>
         </div>

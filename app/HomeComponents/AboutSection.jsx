@@ -15,7 +15,7 @@ export default function AboutSection() {
         miniTitle={"Best Custom Elevation company in chennai"}
       /> */}
 
-      <div className="w-[100%] flex bg-[#272725] flex-wrap p-3 md:p-10 mt-24 mb-10 rounded-xl justify-evenly gap-10 items-center ">
+      <div className="w-[100%] flex bg-[#00000000] border border-black flex-wrap p-3 md:p-10 mt-24 mb-10 rounded-xl justify-evenly gap-10 items-center ">
         <div className="w-full  md:w-[35%]   ">
           <Image
             src={about}
@@ -25,12 +25,12 @@ export default function AboutSection() {
         </div>
         <div className="md:w-[60%] text-start h-full flex flex-col text-gree  justify-center">
           <div>
-          <p className="text-[#FFDB58] p-0   font-raleway font-semibold text-4xl">
+          <p className="text-yellow-950 p-0   font-raleway font-semibold text-4xl md:text-5xl">
             ArunSirpi
           </p>
-          <p className="text-gray-300 font-thin -mt-4">Best Custom Elevation company in chennai</p>
+          <p className="text-gray-600 font-thin -mt-4">Best Custom Elevation company in chennai</p>
           </div>
-          <p className=" font-raleway font-thin text-xl text-white leading-[35px] tracking-widest">
+          <p className=" font-raleway font-thin text-xl text-black leading-[35px] tracking-wide">
             Arun Sirpi is one of the leading specialists in custom building
             elevations, renowned for having some of the best artists in Chennai.
             Recognized among the Top 10 Building Elevation Companies, we

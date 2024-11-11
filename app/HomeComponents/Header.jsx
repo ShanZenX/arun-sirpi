@@ -40,7 +40,7 @@ export default function Header() {
           Elevate Your House with
         </p>
         <p
-          className={` text-7xl md:text-[120px] md:pb-6 text-[#272725]   font-black text-gradient-wave ${raleway.className}`}
+          className={` text-7xl md:text-[120px] md:pb-6 text-yellow-950   font-black text-gradient-wave ${raleway.className}`}
         >
           Arun Sirpi
         </p>
@@ -50,7 +50,7 @@ export default function Header() {
           Come Explore Innovative Cement Elevation Designs
         </p>
         <Button className="w-28 mt-3 !bg-yellow-950/30  border-black">
-          <Link href={"./services"} className="text-white no-underline" >          Get Us 
+          <Link href={"./about"} className="text-white no-underline" >          Get Us 
           </Link>
         </Button>
       </div>

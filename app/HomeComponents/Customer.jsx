@@ -30,9 +30,9 @@ export default function Customer() {
   return (
     <div className=" w-full mx-auto md:p-6  rounded-lg flex items-center flex-col">
 <Title title={"Customer Reviews"} miniTitle={"Customer reviews for our previous work"}/>
-      <div className="flex w-[88%] item-center flex-wrap justify-between  bg-black rounded-2xl p-10 my-10">
+      <div className="flex w-[88%] item-center flex-wrap justify-between   rounded-2xl p-10 mb-10">
         {reviews.map((review, index) => (
-          <div key={index} className="p-4 bg-gray-50 rounded-md shadow w-full md:w-[48%] mb-10 ">
+          <div key={index} className="p-4 bg-yellow-950/5 rounded-md border border-black w-full md:w-[48%] mb-10 ">
             <h3 className="text-xl font-semibold text-gray-700">{review.name}</h3>
             <StarRating count={review.rating} />
             <p className="mt-2 text-lg text-gray-600 font-tamil">{review.review}</p>
