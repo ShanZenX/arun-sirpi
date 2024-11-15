@@ -39,10 +39,10 @@ export default function ContactForm() {
     return (
         <form
             onSubmit={handleSubmit}
-            className="max-w-lg mx-auto p-6 space-y-6 bg-white shadow-lg rounded-lg"
+            className="flex  flex-col md:gap-[12px] gap-2   md:h-[480px]  p-6 bg-white shadow-lg rounded-lg"
         >
-            <div className="flex gap-4">
-                <div className="w-1/2">
+            <div className="flex  md:flex-nowrap flex-wrap md:justify-between md:gap-4 gap-2">
+                <div className="w-full md:w-[45%]">
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                         Name:
                     </label>
@@ -57,7 +57,7 @@ export default function ContactForm() {
                     />
                 </div>
 
-                <div className="w-1/2">
+                <div className="w-full md:w-[45%]">
                     <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
                         Phone Number:
                     </label>

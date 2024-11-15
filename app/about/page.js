@@ -10,12 +10,12 @@ export default function page() {
     <div className="md:h-full md:pt-20 flex flex-wrap gap-3 pt-24 pb-3 md:p-0  items-center justify-around">
       <div className="w-full pt-14 flex flex-col items-center justify-center">
         <h1 className="font-raleway text-black font-black">Get In Touch</h1>
-        <p className="max-w-[40%] text-center">
+        <p className="md:max-w-[40%] max-w-[80%] text-center">
           Ready to elevate your space with the enduring strength and beauty of
           cement? Reach out today to discuss your project!
         </p>
-        <div className="w-[70%] rounded-2xl bg-transparent border border-black  h-[500px] bg-white/ flex items-center justify-center">
-          <div className="w-1/3 bg-yellow-950 flex flex-col p-4  text-white rounded-2xl m-2 h-[97%]">
+        <div className="md:w-[70%] w-11/12 gap-2 md:gap-0     rounded-2xl bg-transparent md:border border-black  md:h-[500px] bg-white flex flex-wrap items-center justify-evenly">
+          <div className="md:w-[30%]  bg-yellow-950 flex flex-col p-4  text-white rounded-2xl h-[97%]">
             <p className="font-poppins text-3xl font-black pt-4 ">
               Contact Details
             </p>
@@ -33,7 +33,7 @@ export default function page() {
               <Image src={about} alt="about-img" className="rounded-xl"></Image>
             </div>
           </div>
-          <div className="w-2/3">
+          <div className="md:w-4/6">
          <ContactForm/>
           </div>
         </div>

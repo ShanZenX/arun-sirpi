@@ -50,7 +50,7 @@ export default function Header() {
           Come Explore Innovative Cement Elevation Designs
         </p>
         <Button className="w-28 mt-3 !bg-yellow-950/30  border-black">
-          <Link href={"./about"} className="text-white no-underline" >          Get Us 
+          <Link href={"./about"} className="text-black no-underline" >          Get Us 
           </Link>
         </Button>
       </div>
