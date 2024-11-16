@@ -9,13 +9,13 @@ import about from "@/public/arun.jpeg";
 
 export default function AboutSection() {
   return (
-    <div className="flex-col  w-full md:w-[90%] text-center h-full flex justify-evenly rounded-xl p-3 md:p-10 ">
+    <div className="flex-col   w-full md:w-[90%] text-center h-full flex justify-evenly rounded-xl p-3 md:p-10 ">
       {/* <Title
         title={"About ArunSirpi"}
         miniTitle={"Best Custom Elevation company in chennai"}
       /> */}
 
-      <div className="w-[100%] flex bg-[#00000000] border border-black flex-wrap p-3 md:p-10 mt-24 mb-10 rounded-xl justify-evenly gap-10 items-center ">
+      <div className="w-[100%] bg-yellow-950/5 flex  border border-black flex-wrap p-3 md:p-10 mt-24 mb-10 rounded-xl justify-evenly gap-10 items-center ">
         <div className="w-full  md:w-[35%]   ">
           <Image
             src={about}
@@ -26,7 +26,7 @@ export default function AboutSection() {
         <div className="md:w-[60%] text-start h-full flex flex-col text-gree  justify-center">
           <div>
           <p className="text-yellow-950 p-0   font-raleway font-semibold text-4xl md:text-5xl">
-            ArunSirpi
+            Arun Sirpi
           </p>
           <p className="text-gray-600 font-thin -mt-4">Best Custom Elevation company in chennai</p>
           </div>

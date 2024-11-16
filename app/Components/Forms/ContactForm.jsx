@@ -39,8 +39,7 @@ export default function ContactForm() {
     return (
         <form
             onSubmit={handleSubmit}
-            className="flex  flex-col md:gap-[12px] gap-2   md:h-[480px]  p-6 bg-white shadow-lg rounded-lg"
-        >
+            className="flex  flex-col md:gap-[12px] gap-2 justify-around md:h-[480px] p-4 bg-white shadow-lg rounded-lg">
             <div className="flex  md:flex-nowrap flex-wrap md:justify-between md:gap-4 gap-2">
                 <div className="w-full md:w-[45%]">
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700">
