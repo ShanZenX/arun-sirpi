@@ -5,25 +5,24 @@ import Title from '../Components/Text/Title';
 
 const reviews = [
   {
-    name: 'ரவி',
+    name: 'Karthik danush',
     rating: 5,
-    review: 'இவர் செய்த உயர்வு வேலைகள் மிக அருமை! வீட்டின் தோற்றம் மிகவும் அழகாக மாறியுள்ளது.',
+    review: 'His work is really very good and excellent.. As per what we said... He has done.. And he having the excellent and lot of desigs',
   },
   {
-    name: 'சந்தோஷ்',
+    name: 'Shesha thri',
     rating: 4,
-    review: 'நேர்த்தியான வேலை, ஆனால் சில முறை தாமதமாகிவிட்டது. கலைநயமான உயர்வு வேலைகள்.',
+    review: 'They are doing very good and excellent work. Work finishing is very nice 😊 I am fully satisfied with their disign. …',
   },
   {
-    name: 'அஜய்',
+    name: 'Prasanna Basker',
     rating: 5,
-    review: 'நிறைவேற்றப்பட்ட வேலை எங்களின் எதிர்பார்ப்புகளை மிஞ்சியது. 100% திருப்தி.',
+    review: 'Good skill and detailing in work. Also gives lot of options to select',
   },
   {
-    name: 'குமார்',
+    name: 'Santhosh',
     rating: 4,
-    review: 'வேலை தரம் நன்றாக இருந்தது, ஆனால் கொஞ்சம் கூடுதல் செலவாகிவிட்டது.',
-  },
+    review: 'What a lovely work its showing a perfect artists ..good to see you bro ..good luck'},
 ];
 
 export default function Customer() {
