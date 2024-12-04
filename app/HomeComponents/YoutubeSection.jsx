@@ -10,6 +10,7 @@ export default function YoutubeSection() {
         {/* YouTube Video 1 */}
         <div className='w-full md:w-[48%]'>
           <iframe
+          name="Our Elevation Work Video 1"
             className='w-full h-64 md:h-80'
             src="https://www.youtube.com/embed/jryYn17_36Y?si=Z3XXaoEGjjBwlke-"
             title="Our Elevation Work Video 1"
@@ -22,6 +23,8 @@ export default function YoutubeSection() {
         {/* YouTube Video 2 */}
         <div className='w-full md:w-[48%]'>
           <iframe
+                    name="Our Elevation Work Video 1"
+
             className='w-full h-64 md:h-80'
             src="https://www.youtube.com/embed/KEiXH0eCYag?si=S8kXnMjlJ7ZvTb02"
             title="Our Elevation Work Video 2"
