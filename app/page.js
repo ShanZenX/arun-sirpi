@@ -11,6 +11,7 @@ import 'aos/dist/aos.css'; // Import AOS styles
 import { useEffect } from "react";
 import Aos from "aos";
 
+
 export default function Home() {
 
 

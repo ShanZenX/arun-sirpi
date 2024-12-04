@@ -16,10 +16,15 @@ import img7 from "@/public/work-5.jpeg";
 import img8 from "@/public/work-6.jpg";
 import img9 from "@/public/ser-4.jpg";
 
+// export const metadata = {
+//   title: "Arun sirpi",
+//   description: "Top elevation work in chennai. Work Arun sirpi",
+// };
+
 export default function page() {
   return (
     <div className='w-full flex flex-col px-4 items-center justify-center pt-6    bg-[#e6b31900]'>
-<Banner  img={img1} title={"Our Work's"}/>
+<Banner  img={img1} title={"Our Work's"} />
 
       <OurProjects/>
       <div className="flex flex-wrap w-11/12 -mt-6 mb-5  gap-5 items-center justify-evenly ">

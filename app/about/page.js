@@ -4,7 +4,10 @@ import ContactCard from "../Components/cards/contactCard";
 import Image from "next/image";
 import about from "@/public/3321.jpg";
 import ContactForm from '../Components/Forms/ContactForm';
-
+export const metadata = {
+  title: "Arun sirpi",
+  description: "Top elevation work in chennai. About Arun sirpi",
+};
 export default function page() {
   return (
     <div className="md:h-full md:pt-20 flex flex-wrap gap-3 pt-24 pb-3 md:p-0  items-center justify-around">

@@ -12,6 +12,12 @@ import img4 from "@/public/ser-4.jpg";
 import img5 from "@/public/ser-5.jpg";
 import img6 from "@/public/ser-6.jpg";
 
+
+export const metadata = {
+  title: "Arun sirpi",
+  description: "Top elevation work in chennai. Services Arun sirpi",
+};
+
 const raleway = Raleway({
   weight: "900",
   subsets: ["latin"],

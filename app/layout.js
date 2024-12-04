@@ -22,12 +22,16 @@ export default function RootLayout({ children }) {
         <title>Best Cement Elevation Works in Chennai</title>
         <meta name="description" content="Expert cement elevation services in Chennai for your construction needs." />
         <meta name="keywords" content="cement elevation, construction, Chennai" />
+        <meta name="keywords" content="cement works, wall elevation, Chennai" />
+        <meta name="keywords" content="Arun Sirpi, Arun sirpi instagram, Chennai" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Best Cement Elevation Works in Chennai" />
         <meta property="og:description" content="Expert cement elevation services in Chennai." />
         <meta property="og:image" content="/path-to-image.jpg" />
         <meta property="og:url" content="https://arun-sirpi.vercel.app/" />
         <link rel="canonical" href="https://arun-sirpi.vercel.app/" />
+        <link rel="icon" href="/logo.png" type="image/png" />
+        <link rel="icon" href="/logo.png" type="image/x-icon" />
       </Head>
       <body className="bg-[#e6b21915]">
         <TopHeader/>

@@ -82,23 +82,23 @@ export default function Header() {
         <div className="w-full md:w-[99.5%]  h-56 bg-black rounded-2xl shadow-2xl  ">
           <Image
             src={head1}
-            alt="header1"
+            alt="Arun Sirpi"
             className="w-full h-56 rounded-2xl object-cover "
           ></Image>
         </div>
         <div className="w-[47%] h-60 md:w-60 md:h-60 bg-black rounded-2xl">
-          <Image src={head2} className="w-full h-full rounded-2xl object-cover " alt="img-1"></Image>
+          <Image src={head2} className="w-full h-full rounded-2xl object-cover " alt="Sirpam"></Image>
         </div>
         <div className="w-[47%] h-60 md:w-60 md:h-60 bg-black rounded-2xl">
-        <Image src={head3} className="w-full h-full rounded-2xl object-cover " alt="img-1"></Image>
+        <Image src={head3} className="w-full h-full rounded-2xl object-cover " alt="Wall work"></Image>
 
         </div>
         <div className="w-[47%] h-60 md:w-60 md:h-60 bg-black rounded-2xl">
-        <Image src={img3} className="w-full h-full rounded-2xl object-cover " alt="img-1"></Image>
+        <Image src={img3} className="w-full h-full rounded-2xl object-cover " alt="Wall cement work "></Image>
 
         </div>
         <div className="w-[47%] h-60 md:w-60 md:h-60 bg-black rounded-2xl">
-        <Image src={img4} className="w-full h-full rounded-2xl object-cover " alt="img-1"></Image>
+        <Image src={img4} className="w-full h-full rounded-2xl object-cover " alt="House elevation"></Image>
 
         </div>
         <div className="w-[47%] hidden md:flex h-60 md:w-60 md:h-60 bg-black rounded-2xl">
