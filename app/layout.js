@@ -16,9 +16,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-      <link rel="icon" href="/favicon.ico" sizes="any" />
+        {/* ✅ Favicon setup */}
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#e6b219" />
 
-          <title>Best Cement Elevation Works in Chennai - Arun Sirpi</title>
+        {/* ✅ SEO Meta */}
+        <title>Best Cement Elevation Works in Chennai - Arun Sirpi</title>
         <meta
           name="description"
           content="Transform your building's exterior with expert cement elevation services in Chennai by Arun Sirpi. High-quality, durable, and aesthetic solutions tailored to your needs."
@@ -29,8 +33,9 @@ export default function RootLayout({ children }) {
         />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Arun Sirpi" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        {/* Open Graph Metadata */}
+        {/* ✅ Open Graph Meta */}
         <meta
           property="og:title"
           content="Best Cement Elevation Works in Chennai - Arun Sirpi"
@@ -41,7 +46,7 @@ export default function RootLayout({ children }) {
         />
         <meta
           property="og:image"
-          content="https://arun-sirpi.vercel.app/path-to-image.jpg"
+          content="https://arun-sirpi.vercel.app/favicon.ico"
         />
         <meta property="og:url" content="https://arun-sirpi.vercel.app/" />
         <meta property="og:type" content="website" />
@@ -49,20 +54,13 @@ export default function RootLayout({ children }) {
           property="og:site_name"
           content="Arun Sirpi Cement Elevation Works"
         />
-
-        {/* Instagram Integration */}
         <meta
           property="og:see_also"
           content="https://www.instagram.com/arunsirpi77/"
         />
 
-        {/* Canonical and Favicons */}
+        {/* ✅ Canonical URL */}
         <link rel="canonical" href="https://arun-sirpi.vercel.app/" />
-        <link rel="icon" href="/logo.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/logo.png" />
-
-        {/* Additional Meta */}
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
       <body className="bg-[#e6b21915]">
