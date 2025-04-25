@@ -10,6 +10,7 @@ import Footer from "./StaticComponents/Footer";
 import 'aos/dist/aos.css'; // Import AOS styles
 import { useEffect } from "react";
 import Aos from "aos";
+import VideoGallery from "./Components/MIniComponents/VideoGallery";
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
   return (
 <div className="flex flex-col justify-center items-center bg-[#e6b21915]  " >
 <Header/>
+<VideoGallery/>
 <ServicesSection/>
 <AboutSection/>
 <OurProjects/>
