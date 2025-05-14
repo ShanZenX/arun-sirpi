@@ -8,7 +8,7 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import logo from "@/public/logo-f.png";
+import logo from "@/public/logo-bg.png";
 
 export default function MyNavbar() {
   const [isVisible, setIsVisible] = useState(true);
@@ -35,11 +35,11 @@ export default function MyNavbar() {
   return (
     <Navbar
       expand="lg"
-      className={`navbar-light bg-yellow-950/70 !text-black shadow-[0_2px_10px_rgba(0,0,0,0.15)] backdrop-blur-sm md:h-20 !px-5 transition-transform duration-[2000ms] mt-[50px] z-10 fixed-top`}
+      className={`navbar-light bg-[#fcf3dd] shadow-[0_2px_10px_rgba(0,0,0,0.2)] backdrop-blur-sm md:h-20 !px-5 transition-transform duration-[2000ms] mt-[50px] z-10 fixed-top`}
     >
       <Container fluid>
         <Navbar.Brand href="/" className="!text-[#d2f65a] font-bold tracking-wider">
-          <Image src={logo} width={120} alt="arun sirpi" />
+          <Image src={logo} width={80} alt="arun sirpi" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -51,7 +51,7 @@ export default function MyNavbar() {
             <Nav.Link
               href="/"
               className={`${
-                pathname === "/" ? "!bg-yellow-950/30 !text-white" : "text-white"
+                pathname === "/" ? "!bg-yellow-950/30 !text-white" : "text-amber-900"
               } px-4 py-2 rounded-lg transition-all duration-300`}
             >
               Home
@@ -59,7 +59,7 @@ export default function MyNavbar() {
             <Nav.Link
               href="./services"
               className={`${
-                pathname === "/services" ? "!bg-yellow-950/30 !text-white" : "text-white"
+                pathname === "/services" ? "!bg-yellow-950/30 !text-white" : "text-amber-900"
               } px-4 py-2 rounded-lg transition-all duration-300`}
             >
               Services
@@ -67,7 +67,7 @@ export default function MyNavbar() {
             <Nav.Link
               href="./works"
               className={`${
-                pathname === "/works" ? "!bg-yellow-950/30 !text-white" : "text-white"
+                pathname === "/works" ? "!bg-yellow-950/30 !text-white" : "text-amber-900"
               } px-4 py-2 rounded-lg transition-all duration-300`}
             >
               Works
@@ -75,7 +75,7 @@ export default function MyNavbar() {
             <Nav.Link
               href="/about"
               className={`${
-                pathname === "/about" ? "!bg-yellow-950/30 !text-white" : "text-white"
+                pathname === "/about" ? "!bg-yellow-950/30 !text-white" : "text-amber-900"
               } px-4 py-2 rounded-lg transition-all duration-300`}
             >
               Contact

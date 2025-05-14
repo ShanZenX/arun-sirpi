@@ -11,9 +11,9 @@ import ImageGallery from "../Components/MIniComponents/ImageGallery";
 
 export default function page() {
   return (
-    <div className="w-full md:mt-20 flex flex-col px-4 items-center justify-center pt-6    bg-[#e6b31900]">
+    <div className="w-full md:mt-20 flex flex-col px-4 items-center justify-center pt-6    bg-[#fcf3dd]">
       {/* <Banner img={img1} title={"Our Work's"} /> */}
-
+      
       <VideoGallery />
       <ImageGallery />
     </div>
