@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { Video } from "./Video";
-import Title from "../Text/Title";
+import { Video } from "../Video";
+import Title from "../../Text/Title";
 
 const VideoGallery = () => {
     const videoGroups = [
-        ["vid1.mp4", "vid2.mp4", "vid3.mp4", "vid5.mp4"],
-        ["vid4.mp4", "vid6.mp4", "vid7.mp4", "vid8.mp4"],
+        ["vid1.mp4", "vid2.mp4", "vid7.mp4", "vid5.mp4"],
+        ["vid4.mp4", "vid6.mp4", "vid3.mp4", "vid8.mp4"],
     ];
 
     const [visibleGroups, setVisibleGroups] = useState(1);
@@ -15,7 +15,7 @@ const VideoGallery = () => {
     };
 
     return (
-        <div className=" w-full mt-24 md:mt-0 flex flex-col items-center justify-center">
+        <div className=" w-full  flex flex-col items-center justify-center">
             <Title 
                 title="Video Gallery" 
                 miniTitle="Explore our collection of videos." 

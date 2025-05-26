@@ -10,8 +10,8 @@ import Footer from "./StaticComponents/Footer";
 import 'aos/dist/aos.css'; // Import AOS styles
 import { useEffect } from "react";
 import Aos from "aos";
-import VideoGallery from "./Components/MIniComponents/VideoGallery";
-import CustomerVideoReviews from "./Components/MIniComponents/CustomerVideoReviews";
+import VideoGallery from "./Components/MIniComponents/gallery /VideoGallery";
+import CustomerVideoReviews from "./Components/MIniComponents/gallery /CustomerVideoReviews";
 
 
 export default function Home() {

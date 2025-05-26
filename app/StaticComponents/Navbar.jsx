@@ -35,11 +35,11 @@ export default function MyNavbar() {
   return (
     <Navbar
       expand="lg"
-      className={`navbar-light bg-[#fcf3dd] shadow-[0_2px_10px_rgba(0,0,0,0.2)] backdrop-blur-sm md:h-20 !px-5 transition-transform duration-[2000ms] mt-[50px] z-10 fixed-top`}
+      className={`navbar-light bg-[#fcf3dd] shadow-[0_2px_10px_rgba(0,0,0,0.2)] backdrop-blur-sm md:h-16 !px-5 transition-transform duration-[2000ms] mt-[50px] z-10 fixed-top`}
     >
       <Container fluid>
         <Navbar.Brand href="/" className="!text-[#d2f65a] font-bold tracking-wider">
-          <Image src={logo} width={80} alt="arun sirpi" />
+          <Image src={logo}  height={50} alt="arun sirpi" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -70,7 +70,7 @@ export default function MyNavbar() {
                 pathname === "/works" ? "!bg-yellow-950/30 !text-white" : "text-amber-900"
               } px-4 py-2 rounded-lg transition-all duration-300`}
             >
-              Works
+              Gallery
             </Nav.Link>
             <Nav.Link
               href="/about"
