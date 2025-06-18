@@ -21,10 +21,10 @@ export default function Home() {
 <div className="flex flex-col justify-center items-center bg-[#e6b21915]  " >
 <Header/>
 <CustomerVideoReviews/>
-<VideoGallery/>
+{/* <VideoGallery/> */}
 <ServicesSection/>
 <AboutSection/>
-<OurProjects/>
+{/* <OurProjects/> */}
 <YoutubeSection/>
 <Customer/>
 </div>
