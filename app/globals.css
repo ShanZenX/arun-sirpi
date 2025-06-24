@@ -15,3 +15,23 @@ e6b21915 light yellow bg
 .carousel-indicators {
     display: none; /* Hide the indicators if needed */
   }
+
+  @keyframes shimmer {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+.gold-text-outline {
+  color: transparent;
+  background: linear-gradient(90deg, #d4af37, #fce586, #d4af37);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #5c2e00;
+  animation: shimmer 20s linear infinite;
+}

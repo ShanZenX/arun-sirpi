@@ -39,11 +39,12 @@ export default function Header() {
         <p className={`text-xl font-medium   ${poppins.className}`}>
           Elevate Your House with
         </p>
-        <p
-          className={` text-7xl md:text-[120px] md:pb-6 text-yellow-950   font-black text-gradient-wave ${raleway.className}`}
-        >
-          Arun Sirpi
-        </p>
+    <p
+  className={`text-7xl md:text-[120px] md:pb-6 font-black gold-text-outline ${raleway.className}`}
+>
+  Arun Sirpi
+</p>
+
         <p
           className={`font-medium text-xl text-center px-2 ${poppins.className}`}
         >
