@@ -8,7 +8,7 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import logo from "@/public/logo-bg.png";
+import logo from "@/public/logo.png";
 
 export default function MyNavbar() {
   const [isVisible, setIsVisible] = useState(true);
